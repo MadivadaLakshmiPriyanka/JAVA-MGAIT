@@ -1,12 +1,17 @@
-package com.myapplication;
 import java.util.*;
-
-import java.util.Date;
-
-public class Post 
+import java.lang.*;
+class Post 
 {
-	 private int id;
-	 private Date date;
-	 private String msg;
-	 private int likes;
+	 int id;
+	 Date date;
+	 String msg;
+	 int likes;
+	 public static void like(int likes)
+	 {
+		 likes=likes+1;
+	 }
+	public static void sortMessage()
+	{
+		
+	}
 }
